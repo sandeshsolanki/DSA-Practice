@@ -13,8 +13,10 @@ public class Palindrome {
     public static void main(String[] args) {
         String str = "sandesh";
         System.out.println("string is palindrome true or false "+ stringPalindromeOrNot(str));
-        
+
         String string = "madam";
         System.out.println("string is palindrome true or false "+ stringPalindromeOrNot(string));
+
+
     }
 }
