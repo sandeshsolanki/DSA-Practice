@@ -13,7 +13,7 @@ public class DuplicateInString {
                     break;
                 }
             }
-git
+
             if (!found){
                 result += ch;
             }
