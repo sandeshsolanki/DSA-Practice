@@ -26,6 +26,10 @@ public class StringPermutations {
         String str = "ABC";
         System.out.println("Permutations of " + str + " are:");
         permute(str, "");
+
+        String string = "abc";
+        System.out.println("permutations of" + string + "are:");
+        permute(string,"");
     }
 }
 
