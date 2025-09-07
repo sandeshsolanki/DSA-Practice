@@ -13,7 +13,7 @@ public class DuplicateInString {
                     break;
                 }
             }
-
+git
             if (!found){
                 result += ch;
             }
@@ -27,5 +27,8 @@ public class DuplicateInString {
 
         String str = "saandesh";
         removeDuplicateFromString(str);
+
+        String string = "aaaaaaa";
+        removeDuplicateFromString(string);
     }
 }
