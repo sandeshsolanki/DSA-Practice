@@ -9,7 +9,7 @@ public class Diamond {
                 System.out.print(" ");
             }
             // for loop for star
-            for (int star = 1; star <= (2 * line - 1); star++) {
+            for (int star = 1; star <= (2 *line - 1); star++) {
                 System.out.print("*");
             }
             System.out.println();
@@ -21,7 +21,7 @@ public class Diamond {
                 System.out.print(" ");
             }
             // for loop for star
-            for (int star = 1; star <= (2 * line - 1); star++) {
+            for (int star = 1; star <= (2 *line - 1); star++) {
                 System.out.print("*");
             }
             System.out.println();
