@@ -32,5 +32,8 @@ public class Butterfly {
 
     public static void main(String[] args) {
         butterflyPatter(5);
+        System.out.println();
+
+        butterflyPatter(2);
     }
 }
