@@ -9,18 +9,21 @@ public class RotateArray {
         public static void leftRotate(int[] arr, int d) {
             int n = arr.length;
             d = d % n; // in case d > n
+            reverse(arr, 0, n - 1);
             reverse(arr, 0, d - 1);
             reverse(arr, d, n - 1);
-            reverse(arr, 0, n - 1);
+
         }
 
         // Rotate array to the right by d positions
         public static void rightRotate(int[] arr, int d) {
             int n = arr.length;
             d = d % n; // in case d > n
-            reverse(arr, n - d, n - 1);
-            reverse(arr, 0, n - d - 1);
             reverse(arr, 0, n - 1);
+            reverse(arr, 0, n - d - 1);
+            reverse(arr, n - d, n - 1);
+
+
         }
 
         // Utility function to reverse part of an array
@@ -36,7 +39,7 @@ public class RotateArray {
 
         public static void main(String[] args) {
             int[] arr = {1, 2, 3, 4, 5, 6, 7};
-            int d = 2;
+            int d = 3;
 
             System.out.println("Original Array: " + Arrays.toString(arr));
 
